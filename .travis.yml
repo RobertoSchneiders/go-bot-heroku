@@ -3,9 +3,10 @@ go:
 - tip
 deploy:
   on: master
-  provider: heroku
   buildpack: https://github.com/kr/heroku-buildpack-go.git
-  app: go-bot-gang
+  provider: heroku
   api_key:
-    secure: "LLslknFOjNqEdrttGaUAjEhgqB+CZtWaI0VM1nWdfMt33PJtMQHmaCm89cO1Uq2u/unyrKMAa5KemR9ds35/PImQ+Iw8k+6NPayssZXewvR0D0g1Q3QEFHp1DwyMoCFLPp3U2EmxSOmA/LnLmmp/8qcBEhiFsn2NuCpdqMXyEGw="
-
+    secure: gS1Wn/bP2dhK/dWbo20JSDvyY18KmV7UgvS7xDNeMAE++XuxznnMXt1UPa8AtIUHKqmhkaR6jzRij3GGyVfn7ygaOFWLowQj2clU2+OBKoH15X57GrlFezehpqodrxMYPMF2SEBStnIWSr2SIOEg3e5aExY3QOlbqjFdNDXefPY=
+  app: go-bot-gang
+  on:
+    repo: RobertoSchneiders/go-bot-heroku
