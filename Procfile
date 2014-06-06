@@ -1,1 +1,1 @@
-worker: go-bot-heroku
+worker: go-bot-gang
