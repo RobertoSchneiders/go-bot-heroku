@@ -2,7 +2,9 @@ language: go
 go:
 - tip
 deploy:
+  on: master
   provider: heroku
-  api_key:
-    secure: L+fxwtyiE5unYu7PFPgpJ4zGQvhDf0fXJ/9K54CqoxcpZGpPpiOgoTpLgxO3EM4ifSGHWtgDp0QO5MNcXI3BeyfCca0c5fFRkFV+Y26iNRfCQBC1yMgfBit18XIU+NFixZy8ospuShXPQgX1zzOQRiExjBa7iIYoKl9tf11xLiQ=
+  buildpack: https://github.com/kr/heroku-buildpack-go.git
   app: go-bot-gang
+  api_key:
+    secure: dvo1rPxz3tjrPH9g47rRa2lc4PIV4xcoFgktmeOaIB/+snQerqbx7USb5IjFpNwUZJVp0mpmXUsUK9NmX1JiPn7DMgx11rkED5iRsMzdbVm3/+WfbV7Gt4dXtmLmIecvPJWV1Fpyewe9Pfaq3laEbD9r4U0lJxVasVYkpwIaV0I=
