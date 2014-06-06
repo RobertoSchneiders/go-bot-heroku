@@ -7,4 +7,5 @@ deploy:
   buildpack: https://github.com/kr/heroku-buildpack-go.git
   app: go-bot-gang
   api_key:
-    secure: VwuKV3MiCwouVm4jrHD/ViC7qrjjNIQyKXLp7oxdrEKR/BHYcw3yatRFd44TBAUIJxEGKgvgPj6NiXlhzCAOjJDICbW618JvhtiRoWjZyS3N5xNCgkvJ7M/D6k+7v0f+P4lJuCwnJsSrJ4YIluSaDVvapigUcbtzRCOxvfOXY/Y=
+    secure: "LLslknFOjNqEdrttGaUAjEhgqB+CZtWaI0VM1nWdfMt33PJtMQHmaCm89cO1Uq2u/unyrKMAa5KemR9ds35/PImQ+Iw8k+6NPayssZXewvR0D0g1Q3QEFHp1DwyMoCFLPp3U2EmxSOmA/LnLmmp/8qcBEhiFsn2NuCpdqMXyEGw="
+
