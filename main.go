@@ -10,7 +10,6 @@ import (
 	_ "github.com/fabioxgn/go-bot/commands/gif"
 	_ "github.com/fabioxgn/go-bot/commands/godoc"
 	_ "github.com/fabioxgn/go-bot/commands/megasena"
-	_ "github.com/fabioxgn/go-bot/commands/url"
 	"log"
 	"os"
 	"strings"
